@@ -1,0 +1,107 @@
+SETTING	NUMBER	SUB-SETTING	SUB-NUMBER	SUB-SUB-SETTING	VALUE
+autosave					0
+charge	1	charges			16
+charge	1	group			
+charge	1	rule	1	comparison	is
+charge	1	rule	1	type	country
+charge	1	rule	1	value	188
+charge	1	rule	2	comparison	entire_cart
+charge	1	rule	2	type	total
+charge	1	rule	2	value	30-59.99
+charge	1	rule	3	comparison	is
+charge	1	rule	3	type	postcode
+charge	1	rule	3	value	620000-629999, 637291-637698
+charge	1	title_admin			Delivery (Surcharge)
+charge	1	title_en-gb			Delivery
+charge	1	title_zh-cn			送货费
+charge	1	type			flat
+charge	2	charges			8
+charge	2	group			
+charge	2	rule	1	comparison	is
+charge	2	rule	1	type	country
+charge	2	rule	1	value	188
+charge	2	rule	2	comparison	entire_cart
+charge	2	rule	2	type	total
+charge	2	rule	2	value	60
+charge	2	rule	3	comparison	is
+charge	2	rule	3	type	postcode
+charge	2	rule	3	value	620000-629999, 098200-099598, 637291-637698
+charge	2	title_admin			Delivery (Surcharge)
+charge	2	title_en-gb			Delivery
+charge	2	title_zh-cn			送货费
+charge	2	type			flat
+charge	3	charges			15
+charge	3	group			
+charge	3	rule	1	comparison	is
+charge	3	rule	1	type	country
+charge	3	rule	1	value	188
+charge	3	rule	2	comparison	entire_cart
+charge	3	rule	2	type	total
+charge	3	rule	2	value	0-29.99
+charge	3	rule	3	comparison	not
+charge	3	rule	3	type	postcode
+charge	3	rule	3	value	620000-629999, 098267-099598, 637291-637698
+charge	3	title_admin			Delivery
+charge	3	title_en-gb			Delivery
+charge	3	title_zh-cn			送货费
+charge	3	type			flat
+charge	4	charges			8
+charge	4	group			
+charge	4	rule	1	comparison	is
+charge	4	rule	1	type	country
+charge	4	rule	1	value	188
+charge	4	rule	2	comparison	entire_cart
+charge	4	rule	2	type	total
+charge	4	rule	2	value	30-59.99
+charge	4	rule	3	comparison	not
+charge	4	rule	3	type	postcode
+charge	4	rule	3	value	620000-629999, 098200-099598, 637291-637698
+charge	4	title_admin			Delivery
+charge	4	title_en-gb			Delivery
+charge	4	title_zh-cn			送货费
+charge	4	type			flat
+charge	6	charges			0
+charge	6	group			
+charge	6	rule	1	comparison	is
+charge	6	rule	1	type	country
+charge	6	rule	1	value	188
+charge	6	rule	2	comparison	entire_cart
+charge	6	rule	2	type	total
+charge	6	rule	2	value	60
+charge	6	rule	3	comparison	not
+charge	6	rule	3	type	postcode
+charge	6	rule	3	value	620000-629999, 098200-099598, 637291-637698
+charge	6	title_admin			Free Delivery
+charge	6	title_en-gb			Free Delivery
+charge	6	title_zh-cn			送货费
+charge	6	type			flat
+charge	8	charges			20
+charge	8	group			
+charge	8	rule	1	comparison	is
+charge	8	rule	1	type	country
+charge	8	rule	1	value	188
+charge	8	rule	2	comparison	entire_cart
+charge	8	rule	2	type	total
+charge	8	rule	2	value	0-29.99
+charge	8	rule	3	comparison	is
+charge	8	rule	3	type	postcode
+charge	8	rule	3	value	620000-629999, 098200-099598, 637291-637698
+charge	8	title_admin			Delivery (Surcharge)
+charge	8	title_en-gb			Delivery
+charge	8	title_zh-cn			送货费
+charge	8	type			flat
+combination	1	formula			
+combination	1	groups_required			
+combination	1	sort_order			
+combination	1	title			single
+display					expanded
+distance_calculation					driving
+distance_units					mi
+heading_en-gb					Formula-Based Shipping
+heading_zh-cn					Formula-Based Shipping
+rule_set	1	name			
+sort_order					1
+status					1
+tax_class_id					0
+testing_mode					0
+tooltips					1

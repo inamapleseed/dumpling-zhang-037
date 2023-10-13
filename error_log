@@ -1,0 +1,11 @@
+[02-Mar-2023 16:59:51 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: RCPT TO not accepted from server! in /home/dumplin1/public_html/system/library/mail.php:366
+Stack trace:
+#0 /home/dumplin1/public_html/catalog/model/tool/pro_email.php(1097): Mail->send()
+#1 /home/dumplin1/public_html/system/storage/modification/system/engine/loader.php(184): ModelToolProEmail->generate(Array)
+#2 /home/dumplin1/public_html/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#3 /home/dumplin1/public_html/catalog/controller/account/forgotten.php(69): Proxy->__call('generate', Array)
+#4 /home/dumplin1/public_html/system/storage/modification/system/engine/action.php(51): ControllerAccountForgotten->index()
+#5 /home/dumplin1/public_html/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#6 /home/dumplin1/public_html/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#7 /home/dumplin1/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#8 /home/dumplin1/public_html/system/eng in /home/dumplin1/public_html/system/library/mail.php on line 366
